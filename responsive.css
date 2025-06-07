@@ -1,0 +1,183 @@
+/* laptop */
+@media screen and (max-width:1200px){
+    /*nav no change  */
+    header{
+        height: 600px;
+    }
+    .banner h1{
+font-size: 65px;
+margin-top: 5px;
+    }
+ .banner p{
+    font-size: 20px;
+   
+}
+}
+
+/* tablet*/
+@media screen and (max-width:1024px){
+    header{
+        height: 600px;
+    }
+    .banner h1{
+font-size: 60px;
+margin-top: 5px;
+    }
+ .banner p{
+    font-size: 20px;
+   
+} 
+.btn button{
+    padding: 15px;
+    font-size: 12px;
+}
+.orange-btn button {
+    padding: 15px;
+    font-size: 12px;  
+}
+    .banner h1{
+font-size: 60px;
+margin-top: 25px;
+    }
+.menu ul{
+/* flex-direction: column; */
+gap: 15px;
+}
+ .offer-card-container{
+    flex-direction: column;
+ } 
+  .about-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+  } 
+   .about-img img{
+    width: 100%;
+   
+ }
+  .about-content h1{
+    font-size: 40px;
+    margin-top: 10px;
+ } 
+  .upcoming-card-container{
+flex-direction: column;
+text-align: left;
+padding: 10px;
+
+ } 
+   .upcoming-card img{
+width: 80%;
+height: 400px;
+
+  }
+ .strength-card-container{
+   flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 20px;
+}
+.lobster-container{
+   flex-direction: column-reverse;
+    padding: 10px;
+    gap: 0px;
+    justify-content: center;
+  
+}
+.lobster-content{
+    width: 100%;
+    text-align: center;
+}
+.lobster-img img{
+    width: 100%;
+}
+.menu-card-container{
+    grid-template-columns: auto;
+}
+.contact-container{
+    flex-direction: column;
+    margin: 0px;
+     padding: 0px;
+}
+input , textarea{
+    width: 80%;
+    padding: 5px;
+
+}
+.contact-container h1{
+    font-size: 30px;
+}
+.strength-card{
+    width: 80%;
+}
+.menu-card{
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 80%;
+    padding: 10px;
+
+}
+.menu-card-heading{
+flex-direction: column;
+justify-content: center;
+}
+.menu-container h3{
+    font-size: 40px;
+}
+.menu-bottom p{
+    
+    font-size: 10px;
+}
+ .offer-container{ 
+padding: 5px;
+ }
+  .offer-card img{
+width: 80%;
+height: 380px ;
+ }
+
+}
+
+
+/* mobile */
+@media screen and (max-width:640px){
+nav{
+   /* flex-direction: column; */
+    padding: 10px;
+ 
+}
+.logo img{
+    width: 25px;
+}
+.menu ul{
+/* flex-direction: column; */
+gap: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+} 
+.btn button{
+    padding: 5px;
+    font-size: 8px;
+} 
+    header{
+        height: 500px;
+    }
+    .banner h1{
+font-size: 50px;
+margin-top: 25px;
+    }
+ .banner p{
+    font-size: 10px;
+   
+}
+ .offer-card-container{
+    flex-direction: column;
+ } 
+}

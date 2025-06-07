@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    color: white;
+}
+
+.btn button{
+    padding: 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    background-color: transparent;
+ 
+}
+.btn button:hover{
+    background-color:orange;
+    color: black;
+    border: none;
+}
+.orange-btn button{
+    padding: 20px 30px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    border:none;
+    background-color: orange;
+}
+.orange-btn button:hover{
+   background-color: transparent;
+    color: white;
+   border: 2px solid white;
+}
+.logo img{
+    width: 70px;
+}
+header{
+   background-image: url(./img/banner.jpg);
+   background-size: cover;
+   height: 700px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ 
+}
+.menu ul{
+display: flex;
+list-style: none;
+gap: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* banner */
+.banner *{
+text-align: center;
+color: white;
+margin-top: 30px;
+}
+.banner h1{
+    font-size: 90px;
+    
+}
+.banner p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* button{
+    padding: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+} */
+ /* offer */
+ main{
+  background-image: url(./img/bg.avif);
+ }
+ .offer-container{
+  
+padding: 100px;
+
+ }
+ .offer-container *{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+ }
+ .offer-container h1{
+    font-size: 3rem;
+    margin: 50px auto;
+ }
+ .offer-container p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+ }
+ .offer-card-container {
+    display: flex;
+    justify-content: space-between;
+ }
+ .offer-card h2{
+font-size: 30px;
+margin-bottom: 10px;
+margin-top: 10px;
+ }
+
+ .offer-card img{
+width: 320px;
+height: 380px ;
+box-shadow:0 4px 8px white;
+ }
+ /*  */
+ .about-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+ }
+ 
+  .about-content *{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ .about-content h1{
+    font-size: 60px;
+   color: orange;
+
+ }
+  .about-content p{
+    font-size: 20px;
+
+
+ }
+  .about-img img{
+    width: 600px;
+    box-shadow:0 8px 16px rgb(209, 208, 208);
+ }
+
+ .upcoming-container{
+    padding: 20px;
+    text-align: center;
+ }
+ .upcoming-container h1 {
+    font-size: 40px;
+ }
+ .upcoming-card-container{
+display: flex;
+justify-content: center;
+padding: 40px;
+gap: 50px;
+ }
+  .upcoming-card img{
+width: 300px;
+height: 400px;
+
+  }
+.upcoming-card h2{
+    font-size: 20px;
+   text-align: center;
+   width: 250px;
+   margin-top: 20px;
+   color: rgb(212, 210, 210);
+}
+/* strength-card */
+.strength-card-container{
+    display: flex;
+    justify-content: space-between;
+     text-align: center;
+     padding: 30px;
+}
+.strength-card{
+    width: 320px;
+    /* height: 400px; */
+    background-color: #333;
+    padding: 20px;
+  
+   
+}
+.strength-card *{
+    margin-bottom: 20px;
+
+}
+.strength-container h1{
+  font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+/* lobster-container */
+.lobster-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    margin: 100px auto;
+}
+.lobster-img img{
+    width: 600px;
+}
+.lobster-content{
+    width: 50%;
+    /* margin-top: 50px; */
+}
+.lobster-content *{
+    margin-bottom: 30px;
+}
+.lobster-content h1{
+    
+    font-size: 50px;
+}
+.lobster-content p{
+    max-width: 80%;
+    line-height: 30px;
+}
+.lobster-content h2{
+    color: orange;
+}
+/* menu-card-container */
+.menu-container{
+
+}
+.menu-card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-card{
+    display: flex;
+    gap: 30px;
+    width: 550px;
+    padding: 20px;
+
+}
+.menu-card-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-card-heading h2{
+    color: orange;
+    margin-right: 30px;
+}
+.menu-container h3{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.menu-bottom {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.menu-bottom p{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/* contact-container */
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    text-align: center;
+    background-color: #3a3939;
+    margin: 100px;
+}
+.contact-container h1{
+    font-size: 40px;
+}
+.contact *{
+    margin-bottom: 10px;
+}
+.reservation *{
+     margin-bottom: 10px;
+}
+input , textarea{
+    width: 400px;
+    padding: 10px;
+     background-color:  #3a3939;
+     color: white;
+     border: 2px solid white;
+
+}
+
